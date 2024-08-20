@@ -63,20 +63,20 @@ print(musician2)
 **Task 4 / Modify / Pairs**  
 **In pairs**, complete these challenges:
 
-1. Write a function that takes one parameter, first_name.  The function should print to the screen a welcome message.  The message should welcome the user by their first name to Career Tech.  Make sure the user’s first name is capitalized correctly in the welcome message, even if the user passes the first name to the function in all lowercase characters.  
+1. Write a function that takes one parameter, `first_name`.  The function should print to the screen a welcome message.  The message should welcome the user by their first name to Career Tech.  Make sure the user’s first name is capitalized correctly in the welcome message, even if the user passes the first name to the function in all lowercase characters.  
 
-```py
+```python
 # The correct output should be something like this:
 Welcome to Career Tech, Alyssa! 
 # The output below is not the correct output
 Welcome to Career Tech, alyssa!
 ```
 
-2. Write a function, **convert_height()**, that takes one parameter, *height\_in\_inches*.  The function should convert the user’s height from inches to centimeters and display on the screen the user’s height in centimeters.  Use an f-string to create your output string.
+2. Write a function, `convert_height()`, that takes one parameter, *height\_in\_inches*.  The function should convert the user’s height from inches to centimeters and display on the screen the user’s height in centimeters.  Use an f-string to create your output string.
 
 3. **Extension:** Write a function named `mini_bio` that takes two parameters, *city* and *citizenship*.  The *citizenship* parameter should have **a default value of Canadian**.  The function should display on the screen a sentence that says what city the user lives in and what citizenship they hold.  For example:  
 * Elizabeth lives in Toronto and has Canadian citizenship.  
-* Michael lives in San Francisco and has British citizenship.
+* Michael lives in San Francisco and has Irish citizenship.
 
 	**Call the function at least two times**, once with just the name of the city as an argument, and another time with both arguments (one for the city, one for the person’s citizenship).
 
